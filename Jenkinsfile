@@ -2,11 +2,11 @@ pipeline {
     agent any
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/vvalligv/Jenkins_demo.git'
-            }
-        }
+        // stage('Checkout') {
+        //     steps {
+        //         git 'https://github.com/vvalligv/Jenkins_demo.git'
+        //     }
+        // }
 
         stage('Install Dependencies') {
             steps {
